@@ -1,0 +1,188 @@
+.subscription-section {
+    background: linear-gradient(to right, #84ceb7);
+    color: white;
+    overflow-x: hidden;
+
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.subscription-text h2 {
+    color: #d5793b;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.subscription-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.subscription-form {
+    max-width: 70%;
+    background: #0d2b0d;
+    border-radius: 20px;
+}
+
+.subscription-form input,
+.subscription-form select {
+    background: transparent;
+    border: 1px solid #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.subscription-form input::placeholder,
+.subscription-form select {
+    color: #bbb;
+}
+
+.subscription-form .btn-success {
+    background: #a6f77b;
+    color: black;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.subscription-form .btn-success:hover {
+    background: #7cd35c;
+}
+
+.btn-light {
+    background-color: #d5793b!important;
+    color: black;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn-light:hover {
+    background-color: #7cd35c;
+}
+
+.saladsubimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.saladbtn {
+    background-color:#d5793b!important;
+    border-radius: 10%;
+    font-weight: 600;
+    font-size: medium;
+    padding: 8px 16px;
+}
+
+.img-fluid2 {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: 400px;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    .subscription-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .subscription-text p {
+        font-size: 1rem;
+    }
+     .saladsubimg {
+        max-width: 135%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .subscription-form {
+        max-width: 120%;
+    }
+
+    .subscription-text p {
+        font-size: 1.1rem;
+    }
+    .saladsubimg {
+        max-width: 160%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .subscription-section {
+        padding: 40px 20px;
+    }
+
+    .subscription-text h2 {
+        font-size: 2rem;
+    }
+
+    .subscription-text p {
+        font-size: 1rem;
+    }
+
+    .subscription-form {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .img-fluid2 {
+        width: 400px;
+        max-width: 100%;
+    }
+
+    .saladsubimg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subscription-text h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .subscription-text p {
+        font-size: 0.95rem;
+        text-align: center;
+    }
+
+    .subscription-form {
+        max-width: 70%;
+        padding: 15px;
+    }
+
+    .img-fluid2 {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .subscription-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .subscription-text p {
+        font-size: 0.9rem;
+    }
+
+    .img-fluid2 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .subscription-form {
+        max-width: 80%;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,98 @@
+/* Section Wrapper */
+.dietin-milletmatter-section {
+  background: #f9fdfc;
+  padding: 10px 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Container */
+.dietin-milletmatter-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Title */
+.dietin-milletmatter-title {
+  font-size: 38px;
+  font-weight: 700;
+  color: #d5793b; /* Orange */
+  margin-bottom: 20px;
+}
+
+/* Intro Text */
+.dietin-milletmatter-intro {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #0f7a95; /* Blue */
+  margin-bottom: 35px;
+}
+
+/* Content Blocks */
+.dietin-milletmatter-block,
+.dietin-milletmatter-advantage {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Subtitles */
+.dietin-milletmatter-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f7a95;
+  margin-bottom: 18px;
+}
+
+/* Lists */
+.dietin-milletmatter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dietin-milletmatter-list li {
+  font-size: 17px;
+  color: #333;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.dietin-milletmatter-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #84ceb7; /* Green */
+  font-weight: bold;
+}
+
+/* Note Text */
+.dietin-milletmatter-note {
+  font-size: 18px;
+  color: #555;
+  margin: 35px 0;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dietin-milletmatter-title {
+    font-size: 30px;
+  }
+
+  .dietin-milletmatter-intro,
+  .dietin-milletmatter-note {
+    font-size: 16px;
+  }
+
+  .dietin-milletmatter-subtitle {
+    font-size: 20px;
+  }
+
+  .dietin-milletmatter-list li {
+    font-size: 15px;
+  }
+}

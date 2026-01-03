@@ -1,0 +1,103 @@
+/* Section */
+.dietin-products-section {
+  background: #f9fdfc;
+  padding: 20px 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Container */
+.dietin-products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Headings */
+.dietin-products-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #d5793b;
+  margin-bottom: 10px;
+}
+
+.dietin-products-subtitle {
+  font-size: 18px;
+  color: #0f7a95;
+  margin-bottom: 60px;
+}
+
+/* Grid */
+.dietin-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 35px;
+}
+
+/* Cards */
+.dietin-product-card {
+  background: #ffffff;
+  padding: 35px 30px;
+  border-radius: 18px;
+  text-align: left;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dietin-product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Product Name */
+.dietin-product-name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0f7a95;
+  margin-bottom: 14px;
+}
+
+/* Description */
+.dietin-product-desc {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 18px;
+}
+
+/* List */
+.dietin-product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dietin-product-list li {
+  font-size: 15px;
+  padding-left: 28px;
+  margin-bottom: 10px;
+  position: relative;
+  color: #333;
+}
+
+.dietin-product-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #84ceb7;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dietin-products-title {
+    font-size: 32px;
+  }
+
+  .dietin-products-subtitle {
+    font-size: 16px;
+  }
+
+  .dietin-product-card {
+    padding: 28px 22px;
+  }
+}

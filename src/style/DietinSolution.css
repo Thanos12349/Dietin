@@ -1,0 +1,90 @@
+/* Container */
+.solution-container {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Headings */
+.main-heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #008c33;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #16a085;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: #34495e;
+}
+
+/* Info Cards */
+.info-box {
+  background: #fff;
+  border-radius: 12px;
+  border-left: 6px solid #16a085;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Lists */
+.info-box ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.info-box ul li {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+}
+
+.info-box ul li strong {
+  color: #2c5033;
+}
+
+/* Paragraphs */
+.info-box p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Icons */
+.info-box svg {
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+/* Emphasis text */
+.info-box p.fw-bold {
+  font-size: 1.05rem;
+  margin-top: 0.8rem;
+  color: #16a085;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .info-box {
+    padding: 1rem;
+  }
+}

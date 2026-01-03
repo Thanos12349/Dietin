@@ -1,0 +1,59 @@
+.promise-container .promise-heading {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.promise-container .promise-highlight {
+  color: #016317;
+}
+
+.promise-description {
+  font-size: 1.1rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.promise-contact p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.promise-contact a {
+  text-decoration: none;
+  color: #006e2a;
+  font-weight: 500;
+}
+
+.promise-contact a:hover {
+  text-decoration: underline;
+  color: #016317;
+}
+
+.promise-ticket {
+  background-color: #f9f9f9;
+  border-left: 5px solid #016317;
+  border-radius: 8px;
+  box-shadow: #333 0px 0px 8px -2px;
+}
+
+.promise-img {
+  max-width: 90%;
+  border-radius: 12px;
+}
+
+.promise-icon {
+  margin-right: 6px;
+  color: #28a757;
+}
+.contact-link {
+  margin-left: 8px;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+

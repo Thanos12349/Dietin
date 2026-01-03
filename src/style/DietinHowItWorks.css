@@ -1,0 +1,114 @@
+.howit-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #00470e;
+}
+.title1{
+  color: #7c5404;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.logo .sub {
+  font-size: 0.9rem;
+  color: #777;
+  display: block;
+}
+
+.main-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #004705;
+}
+
+.tagline {
+  color: #774300;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: -0.5rem;
+}
+
+.howit-img {
+  border-radius: 8px;
+  width: 500px;
+  height: 700px;
+  margin-bottom: 1rem;
+}
+
+.bubble-note {
+  background-color: #004d0e;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+.steps-list {
+  list-style: none;
+  padding: 0;
+}
+
+.step-item {
+  font-size: 1rem;
+  color: #333;
+}
+
+.step-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.popup{
+  transition: transform 0.3s ease-in-out;
+}
+.popup:hover {
+  transform: rotate(360deg);
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-radius: 5%;
+  
+}
+
+.categories-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: #333 0px 0px 0px 0px, #333 0px 5px 0px 0px, #333 0px 0px 10px 0px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  cursor: pointer; 
+  transition: transform 0.3s ease-in-out, 
+  background-color 0.3s ease-in-out;
+}
+
+.category-icon {
+  font-size: 24px;
+  color: #28a750;
+  transition: color 0.3s ease-in-out;
+}
+
+.categories-child:hover {
+  background-color: #016317;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.categories-child:hover .category-icon {
+  color: #fff;
+}
