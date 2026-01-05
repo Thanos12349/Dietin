@@ -238,12 +238,11 @@
   color: #123c0c;
   transform: translateX(4px);
 }
-
 .dropdown-menu-custom a + a {
   margin-top: 4px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .dropdown-menu-custom {
     position: static;
     box-shadow: none;
