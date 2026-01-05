@@ -167,7 +167,7 @@ export default function DietInPlan() {
       <Header />
       <section className="hero d-flex align-items-center text-center text-white">
         <div className="container">
-          <h1>DIETIN NUTRIGRAIN</h1>
+          <p className="nurti-text">DIETIN NUTRIGRAIN</p>
           {/* <p className="lead mt-3 text-white">
             At Heal Root, we believe that food is the first medicine. Our clinic has been transforming lives across the globe through natural, therapeutic, and personalized nutrition.
           </p>
@@ -330,7 +330,7 @@ export default function DietInPlan() {
       <section id="contact" className="contact py-5 bg-dark text-white">
         <div className="container text-center">
           <h2 className="mb-4">Let’s Stay in Touch</h2>
-          <p className="mb-5">We’re here to help no pressure, ever.</p>
+          {/* <p className="mb-5">We’re here to help no pressure, ever.</p> */}
           <p>📧 Email: <a href="mailto:dietin.team@fdhsnet.com" className="text-white text-decoration-none">dietin.team@fdhsnet.com</a></p>
           <p>📍 Location: Gurgaon, India</p>
           <p>📱 WhatsApp: <a href="https://wa.me/+919422799922" className="text-white text-decoration-none">+91 9422799922</a></p>

@@ -56,7 +56,7 @@ const DietinQuickBites = () => {
         {/* Announcement */}
         <div className="highlight-box my-4 p-3 text-center">
           <h5>
-            🚀 Now ordering healthy meals is easier than ever available on Swiggy & Zomato
+            Now ordering healthy meals is easier than ever available on Swiggy & Zomato
           </h5>
         </div>
 
@@ -108,10 +108,10 @@ const DietinQuickBites = () => {
         {/* Menu */}
         <h3 className="section-title">What’s on the Menu?</h3>
         <ul className="info-list">
-          <li>🥗 Fresh & filling healthy salads</li>
-          <li>🍱 Balanced daily meals</li>
-          <li>💪 High-protein & calorie-smart options</li>
-          <li>🍛 Comfort food made clean & nutritious</li>
+          <li>Fresh & filling healthy salads</li>
+          <li>Balanced daily meals</li>
+          <li>High-protein & calorie-smart options</li>
+          <li>Comfort food made clean & nutritious</li>
         </ul>
         <p className="fw-bold">
           Eat smart. Feel energized. Stay consistent.
@@ -125,9 +125,9 @@ const DietinQuickBites = () => {
           <li>Browse our healthy, diet-friendly menu</li>
           <li>Place your order & enjoy fresh meals at home</li>
         </ol>
-        <p className="description">
+        {/* <p className="description">
           No cooking. No planning. No stress.
-        </p>
+        </p> */}
 
         {/* Who It's For */}
         <h3 className="section-title">Who Is Quick Bites Perfect For?</h3>
@@ -148,7 +148,7 @@ const DietinQuickBites = () => {
 
         {/* Promise */}
         <div className="promise-box mt-5 p-4">
-          <h4 className="promise-heading">Our Promise 💚</h4>
+          <h4 className="promise-heading">Our Promise</h4>
           <p>
             With <strong>Quick Bites by Dietin</strong>, we’re not just delivering food
             we’re delivering health, balance, and care.

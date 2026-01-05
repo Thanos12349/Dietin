@@ -11,12 +11,13 @@ const HeroSection = () => {
 
       <div className="hero-overlay d-flex flex-column justify-content-center align-items-center text-center text-white">
         <h1 className="fw-bold fst-italic health">Healthier Meals, On the Go</h1>
-      </div>
-      <div className='hero-overlay1 d-flex justify-content-center'>
-        <p className="your-in text-white">
+        <p className="your-in">
           Your in-office, intelligent, health-first vending partner offering curated, nutritionist-approved & chef-prepared meals on demand. It’s not just food it’s a commitment to wellbeing.
         </p>
       </div>
+      {/* <div className='hero-overlay1 d-flex justify-content-center'>
+        
+      </div> */}
     </div>
   );
 };

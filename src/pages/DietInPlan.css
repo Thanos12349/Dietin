@@ -67,8 +67,8 @@ h2 {
 }
 
 h2::after { /* Underline effect for H2 */
-  /* content: ''; */
-  /* position: absolute;
+/* content: ''; */
+/* position: absolute;
   left: 50%;
   bottom: -15px;
   transform: translateX(-50%);
@@ -97,7 +97,7 @@ body {
 
 .hero {
   min-height: 90vh;
-  background: url('/images/BACK.png') center/cover no-repeat;
+  background: url('/images/IMG_0188.PNG') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,6 +105,36 @@ body {
   /* color: #f8f9fa; */
   /* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); */
   padding: 0 20px;
+}
+
+.nurti-text {
+  font-size: clamp(5.2rem, 5vw, 4.5rem);
+  /* font-size: 120px; */
+  font-weight: 900;
+  color: #0f7a95;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  background: linear-gradient(90deg, #0f7a95, #18b6c9, #0f7a95);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3.8px #ff8c1a;
+
+  text-shadow:
+    0 2px 8px rgba(15, 122, 149, 0.25),
+    0 6px 20px rgba(24, 182, 201, 0.15);
+
+  transition: all 1s ease;
+}
+
+.nurti-text:hover {
+  letter-spacing: 2px;
+  transform: scale(1.05);
+  text-shadow:
+    0 4px 12px rgba(15, 122, 149, 0.35),
+    0 10px 30px rgba(24, 182, 201, 0.25);
 }
 
 .hero h1 {
@@ -173,7 +203,7 @@ body {
   padding: 12px 16px;
   color: #333;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .we-deal-with li:hover {
@@ -224,7 +254,7 @@ body {
   color: #555;
   margin-bottom: 10px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .why-choose-us .list-group-item:hover {
@@ -246,7 +276,7 @@ body {
 }
 
 .programs h2 {
-  
+
   color: #017216;
   text-align: center;
   margin-bottom: 50px;
@@ -257,13 +287,13 @@ body {
   border-radius: 15px;
   padding: 30px;
   /* background: #fff; */
-  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
   transition: all 0.4s ease;
 }
 
 .programs .card:hover {
   transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .programs .card h5 {
@@ -271,25 +301,27 @@ body {
   font-size: 1.4rem;
   margin-bottom: 10px;
 }
+
 /* First card: 1-Month Transformation Plan */
-.programs .row > .col-md-4:nth-child(1) .card {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6)),url("images/Month1.jpg");
+.programs .row>.col-md-4:nth-child(1) .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("images/Month1.jpg");
   background-size: cover;
   background-position: center;
-  color: #f7f7f7; /* Changes text color for better readability on a dark image */
+  color: #f7f7f7;
+  /* Changes text color for better readability on a dark image */
 }
 
 /* Second card: 3-Month Healing Plan */
-.programs .row > .col-md-4:nth-child(2) .card {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6)),url("images/Month3.jpg");
+.programs .row>.col-md-4:nth-child(2) .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("images/Month3.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
 }
 
 /* Third card: 6-Month Complete Lifestyle Plan */
-.programs .row > .col-md-4:nth-child(3) .card {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6)),url("images/Month6.jpg");
+.programs .row>.col-md-4:nth-child(3) .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("images/Month6.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -300,7 +332,7 @@ body {
 ============================== */
 .contact {
   background: linear-gradient(rgba(44, 62, 80, 0.85), rgba(52, 73, 94, 0.85)),
-              url('/images/contact-bg.jpg') center/cover no-repeat fixed;
+    url('/images/contact-bg.jpg') center/cover no-repeat fixed;
   color: #f8f9fa;
   padding: 100px 20px;
   text-align: center;
@@ -345,7 +377,7 @@ body {
   border-radius: 30px;
   padding: 40px;
   color: #fff;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Section Wrapper */
@@ -360,7 +392,8 @@ body {
 .dietin-millet-title {
   font-size: 36px;
   font-weight: 700;
-  color: #d5793b; /* Orange */
+  color: #d5793b;
+  /* Orange */
   margin-bottom: 25px;
 }
 
@@ -510,18 +543,39 @@ body {
    Animations
 ============================== */
 @keyframes fadeInDown {
-  0% { opacity: 0; transform: translateY(-20px); }
-  100% { opacity: 1; transform: translateY(0); }
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeInUp {
-  0% { opacity: 0; transform: translateY(20px); }
-  100% { opacity: 1; transform: translateY(0); }
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes zoomIn {
-  0% { opacity: 0; transform: scale(0.8); }
-  100% { opacity: 1; transform: scale(1); }
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 /* ==============================

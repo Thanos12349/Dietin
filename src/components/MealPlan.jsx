@@ -3,9 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/MealPlan.css";
 import { Link } from "react-router-dom";
 import studentImg from "/images/student.png";
-import Table from "/images/table.png";
+import Table from "/images/table1.png";
 import Pre from "/images/pre.png";
 import Meal1 from "/images/meal1.png";
+import We from "/images/we.png"
+import We1 from "/images/we1.png"
 
 
 const MealPlans = () => {
@@ -22,7 +24,7 @@ const MealPlans = () => {
     },
     {
       title: "GYM AND SPORTS PLAN",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+      image: Table,
       link:"/TherapeuticPlan2"
     },
     {
@@ -32,12 +34,12 @@ const MealPlans = () => {
     },
     {
       title: "THERAPEUTIC PLANS",
-      image: "https://images.unsplash.com/photo-1505935428862-770b6f24f629?w=400&h=300&fit=crop",
+      image: We,
       link:"/TherapeuticPlan"
     },
     {
       title: "WEIGHT MANAGEMENT PLAN",
-      image: Table,
+      image: We1,
       link:"/TherapeuticPlan5"
     }
   ];

@@ -41,10 +41,12 @@
   font-size: 1.2rem;
   margin-top: 2rem;
   text-align: center;
+  color: #d5793b ;
 }
 .health {
   font-size: 4.5rem;
   margin-bottom: 1rem;
+  color: #d5793b;
 }
 @media screen and (max-width: 768px) {
   .health {
