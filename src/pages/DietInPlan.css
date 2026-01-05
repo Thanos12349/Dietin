@@ -97,7 +97,7 @@ body {
 
 .hero {
   min-height: 90vh;
-  background: url('/images/IMG_0156.PNG') center/cover no-repeat;
+  background: url('/images/BACK.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -381,7 +381,7 @@ body {
 }
 
 .dietin-millet-orange {
-  color: #96420b;
+  color: #000;
 }
 
 /* Section */
@@ -461,7 +461,7 @@ body {
 
 .dietin-audience-img-promise h3 {
   font-size: 28px;
-  color: #0f7a95;
+  color: #d5793b;
   margin-bottom: 20px;
 }
 
@@ -475,7 +475,7 @@ body {
 .dietin-audience-img-promise span {
   font-size: 20px;
   font-weight: 600;
-  color: #84ceb7;
+  color: #d5793b;
 }
 
 /* Responsive */

@@ -6,7 +6,7 @@ const DietinSolution = () => {
   return (
     <div className="solution-container container mt-5">
       <div className="row">
-        <div className="col-lg-8">
+        <div className="col-lg-6">
           <h3 className="section-title">Your Team Will Love It</h3>
           <div className="info-box card shadow-sm p-3 mb-4">
             <ul>
@@ -47,7 +47,7 @@ const DietinSolution = () => {
               <li>Earn reward points</li>
               <li>Redeem for meals, discounts & perks</li>
             </ul>
-            <p className="fw-bold">Eat Well. Return Smart. Repeat. 🔄</p>
+            <p className="fw-bold">Eat Well. Return Smart. Repeat.</p>
           </div>
 
           {/* Easy Setup */}
@@ -59,6 +59,11 @@ const DietinSolution = () => {
               <li><strong>Access:</strong> Daily restocking & maintenance entry</li>
             </ul>
           </div>
+
+        </div>
+        <div className='col-lg-6'>
+          <img className='Dietin-img' src="/images/08.jpg" alt="" />
+          <img className='Dietin-img' src="/images/07.jpg" alt="" />
 
         </div>
       </div>

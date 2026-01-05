@@ -23,7 +23,7 @@ const SaladTicket = () => {
             features: [
                 "Convenient ready to carry meal options for busy modern lifestyles everyday",
                 "Nutritious food made effortless wherever takes you.",
-                   ],
+            ],
             link: "/Home1"
         },
         {
@@ -31,7 +31,7 @@ const SaladTicket = () => {
             features: [
                 "Smart, guilt free snacking that keeps you energized between meals.",
                 "Small bites, big on taste and nutrition.",
-             ],
+            ],
             link: "/DietinQuickBites"
         }
     ];
@@ -43,22 +43,22 @@ const SaladTicket = () => {
                     {plans.map((plan, index) => (
                         <div className="col-md-6 col-lg-3 mb-4" key={index}>
                             <Link to={plan.link} className="text-decoration-none">
-                            <div className="card  h-100 shadow">
-                                
+                                <div className="card  h-100 shadow">
+
                                     <div className="card-body meal-plan-card">
                                         <div className="plan-icon ">⭐</div>
                                         <div className="card-title">
                                             <div className="plan-link">{plan.title}</div>
-                                                                    </div>
-                                    <ul className="list-unstyled text-start text-decoration-none text-white mt-3">
-                                        {plan.features.map((feature, i) => (
-                                            <li key={i} className="mb-2">✔ {feature}</li>
-                                        ))}
-                                    </ul>
+                                        </div>
+                                        <ul className="list-unstyled text-start text-decoration-none text-white mt-3">
+                                            {plan.features.map((feature, i) => (
+                                                <li key={i} className="mb-2">{feature}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+
                                 </div>
-                               
-                            </div>
-                             </Link>
+                            </Link>
                         </div>
                     ))}
                 </div>

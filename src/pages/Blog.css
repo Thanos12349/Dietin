@@ -10,7 +10,7 @@
   transition: transform 0.3s, box-shadow 0.3s;
 }
 .color-green{
-  color: #063f00;
+  color: #d5793b ;
 }
 
 .blog-card .card-img-top {
@@ -67,7 +67,7 @@
 .blog-nutrition h5 {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #2b7a3d;
+  color: #d5793b ;
   margin-bottom: 12px;
   text-transform: capitalize;
   border-bottom: 2px solid #f7faf8;
@@ -94,13 +94,14 @@
 }
 
 .blog-nutrition ul li::before {
-  content: "🥦"; 
+  /* content: "🥦";  */
   position: absolute;
+  font-weight: 600;
   left: 0;
   font-size: 1.1rem;
 }
 
-.blog-nutrition ul li:nth-child(1)::before {
+/* .blog-nutrition ul li:nth-child(1)::before {
   content: "🔥"; 
 }
 .blog-nutrition ul li:nth-child(2)::before {
@@ -114,7 +115,7 @@
 }
 .blog-nutrition ul li:nth-child(5)::before {
   content: "🌿";
-}
+} */
 /* Normal state for unselected buttons */
 .btn-outline-success {
   background-color: transparent;

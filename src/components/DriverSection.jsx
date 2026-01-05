@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../style/DriverSection.css";
 
 const DriverSection = () => {
@@ -14,10 +15,9 @@ const DriverSection = () => {
           </h1>
           <h4 className="text-white">Dietin brings you India’s most convenient <br /> and trusted healthy eating experience in 4 Cities.</h4>
           <p>
-           From fresh, chef-crafted salads to wholesome, dietitian-approved meals, we deliver health, flavor, and nutrition straight to your doorstep. Order now on Swiggy and Zomato. Now in Chandigarh, Mohali, Panchkula and Gurugram.
-
+           From fresh, chef-crafted salads to wholesome, dietitian-approved meals, we deliver health, flavor, and nutrition straight to your doorstep. Order now on Swiggy and Zomato. Now in Chandigarh, Mohali, Panchkula and soon to be in Gurugram. 
         </p>
-          <button className="discover-btn">DISCOVER NOW</button>
+          {/* <Link to='/about' className="discover-btn">DISCOVER NOW</Link> */}
         </div>
         <img src="/images/saladleaf.png" alt="Leaf" className="bg-leaf leaf1" />
         <img src="/images/saladshimla.png" alt="Leaf" className="bg-leaf leaf2" />

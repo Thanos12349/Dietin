@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="hero-container">
       <div className="container1">
-        <img className="hero-image1" src="./images/IMG_0157.PNG" alt="Healthy Meals" />
+        <img className="hero-image1" src="./images/back1.png" alt="Healthy Meals" />
       </div>
 
       <div className="hero-overlay d-flex flex-column justify-content-center align-items-center text-center text-white">
@@ -14,7 +14,7 @@ const HeroSection = () => {
       </div>
       <div className='hero-overlay1 d-flex justify-content-center'>
         <p className="your-in text-white">
-          your in-office, intelligent, health-first vending partner offering curated, nutritionist-approved & chef-prepared meals on demand. It’s not just food; it’s a commitment to wellbeing.
+          Your in-office, intelligent, health-first vending partner offering curated, nutritionist-approved & chef-prepared meals on demand. It’s not just food it’s a commitment to wellbeing.
         </p>
       </div>
     </div>

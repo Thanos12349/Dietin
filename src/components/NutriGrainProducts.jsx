@@ -6,9 +6,7 @@ const NutriGrainProducts = () => {
     <section className="dietin-products-section">
       <div className="dietin-products-container">
 
-        <h2 className="dietin-products-title">
-          Dietin NutriGrain
-        </h2>
+        <h2 className="dietin-products-title">Dietin NutriGrain</h2>
 
         <p className="dietin-products-subtitle">
           Smart millet based foods designed for modern lifestyles
@@ -18,6 +16,12 @@ const NutriGrainProducts = () => {
 
           {/* Millet Namkeen */}
           <div className="dietin-product-card">
+            <img
+              src="/images/namkeen.png"
+              alt="Millet Namkeen"
+              className="dietin-product-image"
+            />
+
             <h3 className="dietin-product-name">
               Millet Namkeen (Ready to Eat)
             </h3>
@@ -36,12 +40,18 @@ const NutriGrainProducts = () => {
 
           {/* Millet Cookies */}
           <div className="dietin-product-card">
+            <img
+              src="/images/cookies.png"
+              alt="Millet Cookies"
+              className="dietin-product-image"
+            />
+
             <h3 className="dietin-product-name">
               Millet Cookies
             </h3>
 
             <p className="dietin-product-desc">
-              Wholesome millet based cookies made for everyday enjoyment
+              Wholesome millet based cookies made for everyday enjoyment,
               crispy, satisfying, and balanced.
             </p>
 
@@ -54,6 +64,12 @@ const NutriGrainProducts = () => {
 
           {/* Millet Pasta */}
           <div className="dietin-product-card">
+            <img
+              src="/images/pasta.png"
+              alt="Millet Pasta"
+              className="dietin-product-image"
+            />
+
             <h3 className="dietin-product-name">
               Ready to Eat Millet Pasta
             </h3>
@@ -72,6 +88,12 @@ const NutriGrainProducts = () => {
 
           {/* Millet Noodles */}
           <div className="dietin-product-card">
+            <img
+              src="/images/noodles.png"
+              alt="Millet Noodles"
+              className="dietin-product-image"
+            />
+
             <h3 className="dietin-product-name">
               Ready to Eat Millet Noodles
             </h3>

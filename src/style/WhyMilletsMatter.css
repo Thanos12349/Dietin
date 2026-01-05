@@ -23,7 +23,7 @@
 .dietin-milletmatter-intro {
   font-size: 18px;
   line-height: 1.7;
-  color: #0f7a95; /* Blue */
+  color: #000; /* Blue */
   margin-bottom: 35px;
 }
 
@@ -41,27 +41,26 @@
 .dietin-milletmatter-subtitle {
   font-size: 24px;
   font-weight: 600;
-  color: #0f7a95;
+  color: #d5793b;
   margin-bottom: 18px;
 }
 
 /* Lists */
 .dietin-milletmatter-list {
-  list-style: none;
-  padding: 0;
+
+  padding: 10px;
   margin: 0;
 }
 
 .dietin-milletmatter-list li {
   font-size: 17px;
   color: #333;
-  padding-left: 30px;
+  padding-left: 10px;
   margin-bottom: 12px;
   position: relative;
 }
 
 .dietin-milletmatter-list li::before {
-  content: "✔";
   position: absolute;
   left: 0;
   top: 0;

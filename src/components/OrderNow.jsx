@@ -20,7 +20,7 @@ const OrderNow = () => {
           </h2>
 
           <div className="mt-4 d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-center">
-            <Link to="/blog" className="discover-btn me-3 px-4 text-black text-decoration-none" >
+            <Link to="/blog" className="discover-btn me-3 px-4 text-decoration-none" >
               ORDER ONLINE
             </Link> </div>
         </div>

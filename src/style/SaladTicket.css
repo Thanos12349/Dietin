@@ -4,20 +4,36 @@
     margin-bottom: 1.5rem;
     text-align: center;
 }
+
 /* .meal-plan-card{
     background-color: #0f7a95;
     border-radius: 0 0 0 20%;
 } */
- .meal-plan-card {
+.meal-plan-card {
     background: linear-gradient(135deg, #0f7a95, #1298b8);
     border-radius: 0 0 0 20%;
     padding: 2.5rem;
-    position: relative;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 
+    overflow: hidden;
     box-shadow: 0 18px 40px rgba(15, 122, 149, 0.25);
     transition: all 0.4s ease;
 }
+
+.list-unstyled {
+  list-style-type: disc !important;
+  list-style-position: outside;
+  margin-top: auto;      
+}
+
+.list-unstyled li {
+  margin-top: 0;         
+  text-align: left;
+  line-height: 1.6;
+}
+
 
 /* Soft premium shine overlay */
 .meal-plan-card::before {
@@ -27,11 +43,9 @@
     left: -60%;
     width: 220%;
     height: 220%;
-    background: radial-gradient(
-        circle,
-        rgba(255, 255, 255, 0.18),
-        transparent 70%
-    );
+    background: radial-gradient(circle,
+            rgba(255, 255, 255, 0.18),
+            transparent 70%);
     opacity: 0;
     transition: opacity 0.4s ease;
 }
@@ -45,28 +59,31 @@
 .meal-plan-card:hover::before {
     opacity: 1;
 }
-.container-plan{
+
+.container-plan {
     background-color: #e7eedd;
     border-radius: 5% 5% 5% 5%;
     padding: 2rem;
 }
-.plan-link{
+
+.plan-link {
     text-decoration: none;
     color: white;
     font-size: 1.8rem;
 }
-@media screen and  (max-width: 1400px){
-    .plan-link{
-    text-decoration: none;
-    color: white;
-    font-size: 1.3rem;
+
+@media screen and (max-width: 1400px) {
+    .plan-link {
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+    }
 }
-}
-    
-@media screen and  (max-width: 996px){
-    .plan-link{
-    text-decoration: none;
-    color: white;
-    font-size: 1.8rem;
-}
+
+@media screen and (max-width: 996px) {
+    .plan-link {
+        text-decoration: none;
+        color: white;
+        font-size: 1.8rem;
+    }
 }

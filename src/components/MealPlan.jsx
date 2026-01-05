@@ -2,17 +2,22 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/MealPlan.css";
 import { Link } from "react-router-dom";
+import studentImg from "/images/student.png";
+import Table from "/images/table.png";
+import Pre from "/images/pre.png";
+import Meal1 from "/images/meal1.png";
+
 
 const MealPlans = () => {
   const plans = [
     {
       title: "STUDENT MEAL PLAN",
-      image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop",
+      image: studentImg,
       link:"/TherapeuticPlan3"
     },
     {
       title: "FAST TRACK WEIGHT LOSS",
-      image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop",
+      image: Meal1,
       link:"/TherapeuticPlan4"
     },
     {
@@ -22,7 +27,7 @@ const MealPlans = () => {
     },
     {
       title: "PREGNANCY & LACTATION PLAN",
-      image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+      image: Pre,
       link:"/TherapeuticPlan1"
     },
     {
@@ -32,7 +37,7 @@ const MealPlans = () => {
     },
     {
       title: "WEIGHT MANAGEMENT PLAN",
-      image: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=400&h=300&fit=crop",
+      image: Table,
       link:"/TherapeuticPlan5"
     }
   ];

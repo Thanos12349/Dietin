@@ -28,15 +28,16 @@ const DietinExecutive = () => {
      
 
       {/* Section Heading */}
-      <h3 className="text-center mt-5">Why Your Team Needs Dietin </h3>
+      <h3 className="text-center highlight mt-5">Why Your Team Needs Dietin </h3>
 
       {/* Stats Row */}
+    
       <div className="stats-row row text-center mt-4 g-3">
         <div className="col-md-3">
           <div className="stat-box">
             <FaAppleAlt className="stat-icon" />
             <h4>73%</h4>
-            <span>of professionals skip breakfast</span>
+            <span>Of professionals skip breakfast</span>
           </div>
         </div>
 
@@ -44,7 +45,7 @@ const DietinExecutive = () => {
           <div className="stat-box">
             <FaHeartbeat className="stat-icon" />
             <h4>60%</h4>
-            <span>rely on junk food at work</span>
+            <span>Rely on junk food at work</span>
           </div>
         </div>
 
@@ -52,7 +53,7 @@ const DietinExecutive = () => {
           <div className="stat-box">
             <FaHospitalUser className="stat-icon" />
             <h4>83%</h4>
-            <span>of HR leaders prioritize wellness</span>
+            <span>Of HR leaders prioritize wellness</span>
           </div>
         </div>
 
@@ -60,7 +61,7 @@ const DietinExecutive = () => {
           <div className="stat-box">
             <FaChartLine className="stat-icon" />
             <h4>18%</h4>
-            <span>rise in healthcare costs from lifestyle diseases</span>
+            <span>Rise in healthcare costs from lifestyle diseases</span>
           </div>
         </div>
       </div>

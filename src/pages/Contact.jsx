@@ -102,7 +102,7 @@ const handleBookConsultation = (e) => {
       <div className="container-fluid py-2 bg-light">
         <div className="container position-relative" ref={sectionRef}>
           <h1 className="contactUstext bg-bold">Contact Us</h1>
-          <p className="contactUstext">We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+          <p className="contactUstext">We consider all the drivers of change and provide the components needed to make real change happen.</p>
           <div className="row">
           
             <div className="col-md-6 position-relative">

@@ -1,5 +1,5 @@
 .dietin-container {
-  color: #333;
+  color: #0f7a95;
 }
 
 .executive-title h2 {
@@ -8,7 +8,7 @@
 }
 
 .executive-title .highlight {
-  color: #016317;
+  color: #d5793b;
 }
 
 .description {
@@ -39,7 +39,7 @@
 
 .stat-icon {
   font-size: 2rem;
-  color: #00860d;
+  color: #0f7a95;
   margin-bottom: 10px;
   transition: color 0.3s ease;
 }
@@ -61,6 +61,6 @@
 
 .performance-note {
   font-size: 1.2rem;
-  color: #00890b;
+  color: #d5793b;
   font-weight: bold;
 }

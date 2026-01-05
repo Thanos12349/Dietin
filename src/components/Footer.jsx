@@ -28,12 +28,12 @@ const Footer = () => {
               <img src="./images/logo.png" alt="Logo" style={{ width: "150px", height: "auto" }} />
             </div>
             <p className="text-muted small py-2">
-              In the new era of technology we look at the future with certainty and pride for our company.
+                Rooted in nutrition. Designed for modern lifestyles.  
             </p>
             <div className="d-flex gap-2">
 
               <div className="footer-icon py-2"><a
-                href="https://www.instagram.com/eat_with_dietin?igsh=MTJiMWU0c3VnZTVuNg=="
+                href="https://www.instagram.com/dietin.heal?igsh=MXprYWR5d3NvcWJq"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-decoration-none text-white"
@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
 
           <div className="col-md-6 col-lg-3" >
-            <a  href="https://www.instagram.com/eat_with_dietin?igsh=MTJiMWU0c3VnZTVuNg==" target="_blank" rel="noopener noreferrer"
+            <a  href="https://www.instagram.com/dietin.heal?igsh=MXprYWR5d3NvcWJq" target="_blank" rel="noopener noreferrer"
                >
             <h5 className="footer-title">Follow Us On Instagram</h5>
             <div className="row g-2">

@@ -8,7 +8,7 @@ const DietinPromise = () => {
     <div className="promise-container container mt-5">
       {/* Heading */}
       <h2 className="promise-heading mt-4">
-        The <span className="promise-highlight">Dietin Promise</span>
+        The Dietin Promise
       </h2>
 
       <div className="row mt-4">
@@ -44,7 +44,7 @@ const DietinPromise = () => {
               </a>
             </p>
             <p>
-              <FaInstagram className="promise-icon" /> Instagram:{' '}
+              <FaInstagram className="promise-icon" />{' '}
               <a
                 href="https://www.instagram.com/dietin.heal?igsh=MXprYWR5d3NvcWJq"
                 target="_blank"
@@ -56,10 +56,10 @@ const DietinPromise = () => {
           </div>
 
           {/* Ticket Section */}
-          <div className="promise-ticket mt-4 p-3">
+          {/* <div className="promise-ticket mt-4 p-3">
             <h5>🎟️ DIETIN ON THE GO TICKET</h5>
             <p>Experience wellness made simple, anytime, anywhere.</p>
-          </div>
+          </div> */}
         </div>
 
         {/* Right Section with Image */}

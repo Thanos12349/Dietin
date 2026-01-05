@@ -20,14 +20,14 @@
   font-size: 1.6rem;
   font-weight: 600;
   margin-top: 2rem;
-  color: #34495e;
+  color: #d5793b ;
 }
 
 /* Info Cards */
 .info-box {
   background: #fff;
   border-radius: 12px;
-  border-left: 6px solid #16a085;
+  border-left: 6px solid #0F7a95;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -70,9 +70,32 @@
 .info-box p.fw-bold {
   font-size: 1.05rem;
   margin-top: 0.8rem;
-  color: #16a085;
+  color: #d5793b;
   text-align: center;
 }
+.Dietin-img {
+  width: 900px;
+  height: 575px;
+  max-width: 100%;
+  padding: 0%;
+  margin: 54px auto 0;         
+  border-radius: 35px;
+  margin-left: 24px;            
+
+  animation: fadeUp 1.2s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {

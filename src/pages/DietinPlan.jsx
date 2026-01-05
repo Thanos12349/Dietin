@@ -167,13 +167,13 @@ export default function DietInPlan() {
       <Header />
       <section className="hero d-flex align-items-center text-center text-white">
         <div className="container">
-          <h1>Welcome to Heal Root DIET</h1>
-          <p className="lead mt-3 text-white">
+          <h1>DIETIN NUTRIGRAIN</h1>
+          {/* <p className="lead mt-3 text-white">
             At Heal Root, we believe that food is the first medicine. Our clinic has been transforming lives across the globe through natural, therapeutic, and personalized nutrition.
           </p>
           <a href="#contact" className="btn1 btn-success btn-lg mt-4">
             📞 Book a Free Call
-          </a>
+          </a> */}
         </div>
       </section>
       <section className="dietin-millet-section">
@@ -301,7 +301,7 @@ export default function DietInPlan() {
         </div>
       </section> */}
 
-      <section className="programs py-5 bg-light">
+      {/* <section className="programs py-5 bg-light">
         <div className="container">
           <h2 className="text-center mb-5">Programs & Brochures</h2>
           <div className="row justify-content-center">
@@ -325,7 +325,7 @@ export default function DietInPlan() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="contact" className="contact py-5 bg-dark text-white">
         <div className="container text-center">
@@ -337,7 +337,7 @@ export default function DietInPlan() {
           <p>📷 Instagram: <a href="https://www.instagram.com/dietin.heal?igsh=MXprYWR5d3NvcWJq" target="_blank" rel="noopener noreferrer" className="text-white text-decoration-none">DietIn Instagram</a></p>
         </div>
         <div className="text-center">
-          <a className="btn1 btn-outline-light text-decoration-none" href="/imagePdf">Know more about our services</a>
+          <a className="btn1 btn-outline-light text-decoration-none" href="/contact">Contact Us</a>
         </div>
       </section>
       <Footer />

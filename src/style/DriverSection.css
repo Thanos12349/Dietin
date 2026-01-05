@@ -32,15 +32,33 @@
 }
 
 .discover-btn {
-  background: #d5793b;
-  border: none;
-  padding: 12px 28px;
-  font-size: 1rem;
-  font-weight: 700;
-  border-radius: 6px;
-  cursor: pointer;
-  color: #fff;
+  display: inline-block;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, #d5793b);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  visibility: visible;
+  opacity: 1;
 }
+
+.discover-btn:hover {
+  background: linear-gradient(135deg, #0f7a95);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.discover-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
 
 .driver-image {
   z-index: 2;

@@ -3,7 +3,10 @@
   color: #333;
   margin-bottom: 20px;
 }
-sectoin{
+.salad-title1{
+  color: #d5793b !important;
+}
+.sectoin{
     padding: 0;
 }
 .salad-container {

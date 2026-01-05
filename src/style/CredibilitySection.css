@@ -1,5 +1,6 @@
 .credibility-section {
   display: flex;
+  padding: 20px;
   align-items: flex-start;
   justify-content: space-between;
   background: #ffffff;
@@ -48,7 +49,7 @@
 
 .pillar-icon {
   font-size: 2rem;
-  color: #4CAF50; 
+  color: #d5793b ; 
   margin-bottom: 15px;
 }
 
