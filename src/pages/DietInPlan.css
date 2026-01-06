@@ -115,16 +115,13 @@ body {
   letter-spacing: 1.2px;
   line-height: 1.2;
   text-transform: uppercase;
-  background-color: rgba(0, 0, 0, 0.8);
+ 
 
-  background: linear-gradient(90deg, #0f7a95, #18b6c9, #0f7a95);
+  background: #d5793b;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 3.8px #ff8c1a;
+  /* -webkit-text-stroke: 3.8px #ff8c1a; */
 
-  text-shadow:
-    0 2px 8px rgba(15, 122, 149, 0.25),
-    0 6px 20px rgba(24, 182, 201, 0.15);
 
   transition: all 1s ease;
 }
@@ -132,9 +129,9 @@ body {
 .nurti-text:hover {
   letter-spacing: 2px;
   transform: scale(1.05);
-  text-shadow:
+  /* text-shadow:
     0 4px 12px rgba(15, 122, 149, 0.35),
-    0 10px 30px rgba(24, 182, 201, 0.25);
+    0 10px 30px rgba(24, 182, 201, 0.25); */
 }
 
 .hero h1 {
@@ -497,7 +494,15 @@ body {
   color: #d5793b;
   margin-bottom: 20px;
 }
-
+.background{
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding: 0px 20px 0px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
 .dietin-audience-img-promise p {
   font-size: 18px;
   color: #444;
@@ -523,6 +528,9 @@ body {
 
   .dietin-audience-img-promise p {
     font-size: 16px;
+  }
+  .nurti-text{
+    font-size: 42px;
   }
 }
 

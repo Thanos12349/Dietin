@@ -16,7 +16,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <HeroSection />
+      <HeroSection image="/images/imgbanner.JPG"/>
       {/* <SaladHeroSection title="About Us" visual={true} /> */}
       <SaladEssence />
       {/* <SaladMenu/> */}

@@ -14,7 +14,7 @@ const MealPlan2 = () => {
   return (
     <div >
       <Header />
-      <HeroSection />
+      <HeroSection image="/images/IMG_0198.PNG"/>
       <Bmr />
       <MealPlans />
       <OrderNow />

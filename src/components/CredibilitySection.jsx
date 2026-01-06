@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/CredibilitySection.css";
-import { FaUserMd, FaUtensils, FaFlask, FaUsers, FaLeaf } from "react-icons/fa";
+import { FaUserMd, FaUtensils, FaFlask, FaUsers, FaLeaf,FaRecycle } from "react-icons/fa";
 
 const CredibilitySection = () => {
   return (
@@ -9,7 +9,7 @@ const CredibilitySection = () => {
         <h2>Pillars of Our Credibility</h2>
         <p>
           At Dietin, our foundation is built on trust, expertise, and a commitment 
-          to making healthy eating effortless. These five pillars define who we are 
+          to making healthy eating effortless. These Six pillars define who we are 
           and guide everything we do.
         </p>
         <img src="/images/wooden-boy.jpg" alt="Credibility Background" className="img-fluid" />
@@ -40,6 +40,11 @@ const CredibilitySection = () => {
           <FaLeaf className="pillar-icon" />
           <h4>Quality First</h4>
           <p>Sourced from organic farms and hygienically prepared kitchens.</p>
+        </div>
+        <div className="pillar-card">
+          <FaRecycle className="pillar-icon" />
+          <h4>Sustainably Sourced </h4>
+          <p>Thoughtfully selected ingredients that support both health and responsibility. </p>
         </div>
       </div>
     </section>

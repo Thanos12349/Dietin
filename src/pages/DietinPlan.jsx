@@ -166,8 +166,11 @@ export default function DietInPlan() {
     <div className="diet-in-plan">
       <Header />
       <section className="hero d-flex align-items-center text-center text-white">
-        <div className="container">
-          <p className="nurti-text">DIETIN NUTRIGRAIN</p>
+        <div className="container1">
+          <div className="background">
+            <p className="nurti-text">DIETIN NUTRIGRAIN</p>
+          </div>
+          
           {/* <p className="lead mt-3 text-white">
             At Heal Root, we believe that food is the first medicine. Our clinic has been transforming lives across the globe through natural, therapeutic, and personalized nutrition.
           </p>

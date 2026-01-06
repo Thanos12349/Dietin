@@ -6,7 +6,7 @@ const SaladTicket = () => {
         {
             title: "DietIn NutriGrain",
             features: [
-                "Personalized millet based nutrition plans tailored to lifestyle and goals.",
+                "Millet based, wholesome meals crafted to support balanced nutrition, sustained energy, and everyday wellness clean, nourishing, and satisfying. ",
                 "Building sustainable eating habits through mindful choices."
             ],
             link: "/dietInPlan"
@@ -14,8 +14,13 @@ const SaladTicket = () => {
         {
             title: "DietIn Meal",
             features: [
-                "Wholesome chef crafted meals designed by dietitians to nourish bodies.",
-                "Balanced nutrition delivered fresh making eating simple."],
+                "",
+                "",
+                "",
+                "",
+                "Wholesome, thoughtfully prepared meals focused on balanced nutrition and great taste, making healthy eating simple and consistent every day.",
+                "Balanced nutrition delivered fresh making eating simple."
+            ],
             link: "/mealPlans"
         },
         {
@@ -50,11 +55,15 @@ const SaladTicket = () => {
                                         <div className="card-title">
                                             <div className="plan-link">{plan.title}</div>
                                         </div>
+
                                         <ul className="list-unstyled text-start text-decoration-none text-white mt-3">
                                             {plan.features.map((feature, i) => (
                                                 <li key={i} className="mb-2">{feature}</li>
                                             ))}
                                         </ul>
+
+
+
                                     </div>
 
                                 </div>

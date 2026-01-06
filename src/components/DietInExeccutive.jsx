@@ -23,7 +23,7 @@ const DietinExecutive = () => {
 
       {/* Intro Description */}
       <p className="description mt-4 text-center">
-       Transform your workplace with the Dietin Mealogy Club Chiller an IoT enabled smart fridge delivering fresh, chef-crafted, nutritionist-approved meals right to your team. </p>
+       Transform your workplace with the Dietin an IoT enabled smart fridge delivering fresh, chef-crafted, nutritionist-approved meals right to your team. </p>
 
      
 

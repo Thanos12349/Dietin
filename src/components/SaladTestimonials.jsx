@@ -40,23 +40,23 @@ const SaladTestimonials = () => {
 
   const testimonials = [
     {
-      name: "Jaswant Brar",
-      text: "Finally, the scale is moving! Down from 78.2 kg and feeling more motivated than ever. Loved the oats roti and sabzi! I was honestly stunned that even oats roti could taste this good!",
+      name: "Anuj Reddy",
+      text: "I’ve been trying to manage my weight without extreme dieting, and DietIn meals fit perfectly into my routine. Clean, balanced, and easy to stick to.",
       img: "/images/veg.png",
     },
     {
       name: "Neha Kapoor",
-      text: "Never thought healthy food could be this satisfying! The quinoa pulao was light yet so flavorful no more boring diet meals for me.",
+      text: "The Teriyaki Fish Bowl was perfectly balanced flavourful yet light. The portion was filling without feeling heavy. Definitely ordering again!!",
       img: "/images/veg.png",
     },
     {
-      name: "Arjun Mehta",
-      text: "In just two weeks, I feel lighter and more energetic. The customized meal plan fits perfectly into my routineno cravings, no compromises!",
+      name: "Sarthak Kapadia",
+      text: "I didn’t expect a salad to taste this good. The Creamy Quinoa Salad was fresh, satisfying, and actually kept me full for hours.",
       img: "/images/veg.png",
     },
     {
-      name: "Radhika Sharma",
-      text: "I was worried about missing my favorite comfort food, but Dietin’s millet-based parathas are a game changer! Healthy, filling, and super tasty.",
+      name: "Reem Sharma",
+      text: "DietIn makes healthy eating feel effortless. The meals are fresh, well-prepared, and ideal for everyday busy schedules.",
       img: "/images/veg.png",
     },
   ];

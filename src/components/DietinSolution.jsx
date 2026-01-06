@@ -61,9 +61,9 @@ const DietinSolution = () => {
           </div>
 
         </div>
-        <div className='col-lg-6'>
+        <div className='Dietin-img-wrapper col-lg-6'>
           <img className='Dietin-img' src="/images/08.jpg" alt="" />
-          <img className='Dietin-img' src="/images/07.jpg" alt="" />
+          {/* <img className='Dietin-img' src="/images/07.jpg" alt="" /> */}
 
         </div>
       </div>

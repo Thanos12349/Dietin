@@ -50,7 +50,7 @@ const SaladHeroSection = ({ title, visual }) => {
             </p>
             <p className="salad-about-text">
 
-              From balanced meal plans to tailored programs and quick, accessible options, everything we do is built on one idea: health made effortless.
+              From balanced meal plans to tailored programs and quick, accessible options, everything we do is built on one idea health made effortless.
 
             </p>
             <p className="salad-about-text">
@@ -59,7 +59,7 @@ const SaladHeroSection = ({ title, visual }) => {
 
             </p>
             <p className="salad-about-text">
-              Our purpose is clear: to build a healthier community, one meal and one choice at a time.
+              Our purpose is clear to build a healthier community, one meal and one choice at a time.
             </p>
             {btnVisible && (
               <Link to="/about">

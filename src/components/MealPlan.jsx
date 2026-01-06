@@ -52,7 +52,7 @@ const MealPlans = () => {
             <span className="text-primary1">Choose Your Perfect Plan</span>
           </h2>
           <p className="text-secondary">
-            We offer 8 signature meal plans designed for every phase of life and every goal
+            We offer 6 signature meal plans designed for every phase of life and every goal
           </p>
         </div>
 

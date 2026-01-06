@@ -15,9 +15,8 @@ const SubscriptionPlans = () => {
                     </p>
 
                     <ul className="list-unstyled text-dark ">
-                        <li> <strong>DietIn NutriGrain:</strong> Wholesome, chef-crafted meals designed by dietitians to nourish your body and satisfy your
-                            taste buds. </li>
-                        <li><strong>DietIn Meal:</strong> Personalized nutrition plans tailored to your lifestyle, health goals, and specific needs.</li>
+                        <li> <strong>DietIn NutriGrain:</strong> Millet based meals designed for balanced nutrition, sustained energy, and everyday wellness.  </li>
+                        <li><strong>DietIn Meal:</strong>Wholesome, well balanced meals that make healthy eating simple, satisfying, and consistent. </li>
                         <li> <strong>DietIn On-The-Go:</strong> Convenient, ready-to-carry options for busy days without compromising on health.</li>
                         <li> <strong>DietIn Quick Bites:</strong> Smart, guilt-free snacking that keeps you energized between meals. </li>
                     </ul>

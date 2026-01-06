@@ -37,10 +37,13 @@
   padding: 2rem;
 }
 .your-in {
+  width: 600px;
   bottom: 0;
   font-size: 1.2rem;
   margin-top: 2rem;
   text-align: center;
+  /* margin-left: 24rem;
+  margin-right: 24rem; */
   color: #d5793b ;
 }
 .health {
@@ -54,6 +57,7 @@
     color: aliceblue;
   }
   .your-in {
+    width: 250px;
     bottom: -10%;
     font-size: 1rem;
   }

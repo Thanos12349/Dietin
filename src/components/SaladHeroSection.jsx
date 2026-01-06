@@ -48,7 +48,7 @@ import "../style/SaladHeroSection.css";
 import { Link } from "react-router-dom";
 
 
-const SaladHeroSection = () => {
+const SaladHeroSection = ({image}) => {
   const videoRef = useRef(null);
   useEffect(() => {
     if (videoRef.current) {
@@ -65,7 +65,7 @@ const SaladHeroSection = () => {
         loop
         playsInline
       ></video> */}
-      <img className="dietin-hero-image" src="/images/imgbanner.JPG" alt="" />
+      <img className="dietin-hero-image" src={image} alt="" />
       <div className="dietin-hero-overlay"></div>
 
       <div className="dietin-hero-content">
