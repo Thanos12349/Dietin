@@ -2,13 +2,14 @@ import React from "react";
 import "./DietinQuickBites.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import HeroSection from "../components/HeroSection2";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const DietinQuickBites = () => {
   return (
     <>
       <Header />
-
+      <HeroSection image="./images/back3.png" tittle="DIETIN QUICK BITES" />
       <div className="quickbites-container container mt-5">
 
         {/* Header */}
@@ -22,7 +23,6 @@ const DietinQuickBites = () => {
             <span className="brand">Zomato</span>
           </h5>
         </div>
-
         {/* Intro */}
         <div className="quickbites-content d-flex align-items-center">
           <div className="text-content">
@@ -158,7 +158,7 @@ const DietinQuickBites = () => {
           </p>
 
           <p className="fw-bold text-center">
-            Eat Right. Live Better.  
+            Eat Right. Live Better.
             <br />
             Because when nutrition becomes simple, wellness becomes a way of life.
           </p>

@@ -14,7 +14,7 @@ const Index = () => {
     <div className="min-h-screen bg-white">
 
       <Header />
-      <HeroSection />
+      <HeroSection image="./images/back1.png" tittle="DIETIN ON THE GO"/>
       <DietinExecutive/>
       <DietinSolution/>
       <DietinPromise/>

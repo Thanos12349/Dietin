@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import About from "../components/About";
-import HeroSection from "../components/SaladHeroSection";
+import HeroSection from "../components/SaladHeroSection1";
 import MealPlans from "../components/MealPlan";
 import Footer from "../components/Footer";
 import CredibilitySection from "../components/CredibilitySection";

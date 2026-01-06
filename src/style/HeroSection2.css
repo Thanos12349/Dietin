@@ -51,6 +51,12 @@
   margin-bottom: 1rem;
   color: #d5793b;
 }
+.background-white{
+  width: fit-content;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 25px;
+  padding: 24px;
+}
 @media screen and (max-width: 768px) {
   .health {
     font-size: 2.5rem;
